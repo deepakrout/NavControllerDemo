@@ -13,6 +13,8 @@
 		162F99E126F9611100570E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162F99DF26F9611100570E45 /* Main.storyboard */; };
 		162F99E326F9611400570E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162F99E226F9611400570E45 /* Assets.xcassets */; };
 		162F99E626F9611400570E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162F99E426F9611400570E45 /* LaunchScreen.storyboard */; };
+		162F99EE26F9688B00570E45 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F99ED26F9688B00570E45 /* MainNavigationController.swift */; };
+		162F99F026F96AB100570E45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F99EF26F96AB100570E45 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		162F99E226F9611400570E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		162F99E526F9611400570E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		162F99E726F9611400570E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162F99ED26F9688B00570E45 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		162F99EF26F96AB100570E45 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				162F99E226F9611400570E45 /* Assets.xcassets */,
 				162F99E426F9611400570E45 /* LaunchScreen.storyboard */,
 				162F99E726F9611400570E45 /* Info.plist */,
+				162F99ED26F9688B00570E45 /* MainNavigationController.swift */,
+				162F99EF26F96AB100570E45 /* LoginViewController.swift */,
 			);
 			path = NavControllerDemo;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				162F99DE26F9611100570E45 /* ViewController.swift in Sources */,
 				162F99DA26F9611100570E45 /* AppDelegate.swift in Sources */,
+				162F99EE26F9688B00570E45 /* MainNavigationController.swift in Sources */,
+				162F99F026F96AB100570E45 /* LoginViewController.swift in Sources */,
 				162F99DC26F9611100570E45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
